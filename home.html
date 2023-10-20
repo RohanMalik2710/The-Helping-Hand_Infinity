@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- Requires Vue version 3.x -->
+    <script src="https://unpkg.com/vue@next"></script>
+    <!-- Flow Form -->
+    <script src="https://unpkg.com/@ditdot-dev/vue-flow-form@2.3.2"></script>
+    <!-- Flow Form base CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/@ditdot-dev/vue-flow-form@2.3.2/dist/vue-flow-form.min.css">
+    <!-- Optional theme.css -->
+    <link rel="stylesheet" href="https://unpkg.com/@ditdot-dev/vue-flow-form@2.3.2/dist/vue-flow-form.theme-minimal.min.css">
+    <!-- Optional font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;900&amp;display=swap">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="main-div">
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-title">
+                The Helping Hand
+              </div>
+            </div>
+            <div class="nav-links">
+              <div id="google_translate_element"></div>
+              <script type="text/javascript">
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                  {pageLanguage: 'en'},
+                  'google_translate_element'
+                );
+              }
+              </script>
+              <script type="text/javascript"
+              src=
+              "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+              </script>
+              <a href="home.html" target="_blank">Test</a>
+              <a href="scheme.html" target="_blank">Schemes</a>
+              <a href="faqs.html" target="_blank">FAQS</a>
+              <a href="https://github.com/RohanMalik2710/The-Helping-Hand_Infinity" target="_blank">About Us</a>
+            </div>
+          </div>
+    <div class="div1" >
+        <p id="para1">In the last 30 days, how much difficulty did you have in :</p>
+    </div>
+    <div id="app" class="div2"></div>
+    <div class="button">
+        <button class="button2" onclick="local()">Submit</button>
+    </div>
+    <script src="app.js"></script>
+    </div>
+  </body>
+</html>
